@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: ConfigServer
+  cloud:
+    config:
+      server:
+        git:
+          uri: file:/Users/JToscano/workspace/Lab11Base/config-repo
+
+server:
+  port: 8600
+

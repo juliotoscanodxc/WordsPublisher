@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: Processor
+  cloud:
+    config:
+      uri: http://localhost:8600
